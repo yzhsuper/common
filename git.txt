@@ -1,3 +1,4 @@
 1.git fetch <远程主机名> 将某个远程主机的更新，全部取回本地
 2.git fetch <远程主机名> <分支名> 取回特定分支的更新
 3.git log -p master..origin/master 比较本地与远程分支的区别
+4.git checkout HEAD [file] 放弃本地没有提交的修改
