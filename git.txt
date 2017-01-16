@@ -5,3 +5,6 @@
 5.git log -p file 查看某个文件提交记录
 6.git log --since=2016-3-24 --until=20161-3-25 -p 查看某个时间段的记录
 7.git diff 查看修改
+8.git remote rm origin删除远程
+9.git remote add origin [url] 添加新的远程
+
