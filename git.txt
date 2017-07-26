@@ -8,4 +8,4 @@
 7.git diff 查看修改
 8.git remote rm origin删除远程
 9.git remote add origin [url] 添加新的远程
-
+10.git remote update origin --prune 刷新远程分支
