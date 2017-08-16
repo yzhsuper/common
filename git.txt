@@ -9,3 +9,4 @@
 8.git remote rm origin删除远程
 9.git remote add origin [url] 添加新的远程
 10.git remote update origin --prune 刷新远程分支
+11. git symbolic-ref --short -q HEAD 获取当前分支名称
