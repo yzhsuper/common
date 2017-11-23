@@ -3,10 +3,13 @@
 3.git log -p master..origin/master 比较本地与远程分支的区别
 4.git checkout HEAD [file] 放弃本地没有提交的修改
 5.git log -p file 查看某个文件提交记录
-6.git log --since=2016-3-24 --until=20161-3-25 -p 查看某个时间段的记录
+6.git log --since=2017-10-24 --until=2017-10-25 -p 查看某个时间段的记录
 7.git log --author='username' 查看某个用户的提交记录
 7.git diff 查看修改
 8.git remote rm origin删除远程
 9.git remote add origin [url] 添加新的远程
 10.git remote update origin --prune 刷新远程分支
 11. git symbolic-ref --short -q HEAD 获取当前分支名称
+12. git tag 列出所有tag
+13. git tag -a v1.0.0 -m '多游戏前稳定版本' 创建标签
+14 git show v1.0.0展示tag详情
