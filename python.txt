@@ -12,7 +12,7 @@ vi ~/.bashrc
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=/data/htdocs/
 export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
-source /usr/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper.sh
 
 保存退出
 
