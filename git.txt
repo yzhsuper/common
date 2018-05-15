@@ -13,3 +13,4 @@
 12. git tag 列出所有tag
 13. git tag -a v1.0.0 -m '多游戏前稳定版本' 创建标签
 14 git show v1.0.0展示tag详情
+15 ssh-keygen -f "/home/hubo/.ssh/known_hosts" -R 172.16.20.174
