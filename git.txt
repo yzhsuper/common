@@ -14,3 +14,9 @@
 13. git tag -a v1.0.0 -m '多游戏前稳定版本' 创建标签
 14 git show v1.0.0展示tag详情
 15 ssh-keygen -f "/home/hubo/.ssh/known_hosts" -R 172.16.20.174
+
+如果当前文件是已经commit ,push到远程仓库后了，.gitignore里面再配置是不起作用的，此时需要清除对此文件的追踪
+
+git rm --cached xxx    或者git rm -r --cached 文件夹名称取消追踪
+在.gitignored中添加需要过滤的文件
+commit, push提交.gitignore
